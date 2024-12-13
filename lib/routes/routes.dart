@@ -7,7 +7,7 @@ import 'package:chat_socket_app/pages/login_page.dart';
 import 'package:chat_socket_app/pages/register_page.dart';
 
 class AppRoutes {
-  static const String initialRoute = LoginPage.route;
+  static const String initialRoute = ChatPage.route;
 
   static Map<String, Widget Function(dynamic)> routes = {
     HomePage.route: (_) => const HomePage(),
